@@ -72,7 +72,7 @@ export default function Home() {
               adminstration and build power bi dashboards . Join me down below
               and let&apos;s get cracking!
             </p>
-            <div className="text-5xl flex justify-center gap-8 py-3 text-gray-600 dark:text-gray-400">
+            <div className="text-5xl flex flex-col-4 justify-center gap-4 sm:gap-8 md:gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a href="https://github.com/Diefmohamed210">
                 <AiFillGithub />
               </a>
@@ -152,7 +152,9 @@ export default function Home() {
                 Are you interested in feedback for your current project? I can
                 give you tips and tricks to level it up.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
+              <h4 className="py-4 text-teal-600">
+                Don&apos;t hasitate to call me
+              </h4>
               <p className="text-gray-800 py-1 block">
                 diefmohamed2021@gmail.com
               </p>
