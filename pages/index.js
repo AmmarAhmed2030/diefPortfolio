@@ -330,8 +330,8 @@ export default function Home() {
           <h1 className="text-2xl text-center my-10 bg-teal-100 text-teal-700  rounded p-2 mx-auto">
             Database Projects
           </h1>
-          <div className="flex flex-row gap-5 lg:flex-row lg:flex-wrap rounded-lg shadow-lg">
-            <div className="basis-1 flex-1 hover:border-2 hover:border-white-700 rounded-lg shadow-md shadow-gray-600">
+          <div className="flex flex-col gap-5 lg:flex-row lg:flex-wrap rounded-lg shadow-lg">
+            <div className="basis-1/3 flex-1 hover:border-2 hover:border-white-700 rounded-lg shadow-md shadow-gray-600">
               <Image
                 className="rounded-lg object-cotain "
                 width={"100%"}
@@ -341,7 +341,8 @@ export default function Home() {
                 alt=""
               />
             </div>
-            <div className="basis-1 flex-1 hover:border-2 hover:border-white-700 rounded-lg shadow-md shadow-gray-600">
+
+            <div className="basis-1/3 flex-1 hover:border-2 hover:border-white-700 rounded-lg shadow-md shadow-gray-600">
               <Image
                 className="rounded-lg object-cotain"
                 width={"100%"}
@@ -351,7 +352,7 @@ export default function Home() {
                 alt=""
               />
             </div>
-            <div className="basis-1 flex-1 hover:border-2 hover:border-white-700 rounded-lg shadow-md shadow-gray-600">
+            <div className="basis-1/3 flex-1 hover:border-2 hover:border-white-700 rounded-lg shadow-md shadow-gray-600">
               <Image
                 className="rounded-lg object-cotain"
                 width={"100%"}
